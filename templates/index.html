@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type ="text/css" href="/static/css/style.css?q={{ time }}">
+    </head>
+    <body>
+        <h1>What kind of bender would you be in the Avatar the Last Airbender Universe?</h1>
+        <img src="static/images/four_nations.PNG" />
+        <h3> This quiz will help you find out! </h3>
+        
+        <form method="post" action="/results">
+            <input type="text" name="name" placeholder="Your Name"/>
+
+            <p> 1. Which of these best describe you when someone offends you? <BR>
+            <input type="radio" name="fight" value="water" >You stay cool-headed and let them know why they're in the wrong. <BR>
+            <input type="radio" name="fight" value="fire"  >You don't hold back and let them hear how you're really feeling. <BR>
+            <input type="radio" name="fight" value="earth" >You let them know that they've disrespected you, and you won't tolerate that again. <BR>
+            <input type="radio" name="fight" value="air"   >You simply let it go; you don't know what the other person was going through at the time. <BR>
+            </p>
+            <p> 2. When you have a big exam coming up, what is your approach to preparing for it? <BR>
+            <input type="radio" name="test" value ="fire"  > You feel very anxious and stressed, so you prepare every night beforehand.  <BR>
+            <input type="radio" name="test" value ="air"   >You aren't stressed, you know you've been paying attention in class so you're going to be fine. <BR>
+            <input type="radio" name="test" value ="water" >You're good at thinking on your feet, so while you'll review a little bit, you trust your instincts will carry you through. <BR>
+            <input type="radio" name="test" value ="earth" >You've been through this before, so you settle down, work out your study plan, and stick to it. You know your hard
+            work will pay off. <BR>
+            </p>
+            <p> 3. It's time to work out! What's your go to exercise routine? <BR>
+            <input type="radio" name="exercise" value="air"     >Calisthenics! You want to build up your core strength to stay light on your feet. <BR>
+            <input type="radio" name="exercise" value="water"   >Yoga! It's important to stay flexible as you go about your day. <BR>
+            <input type="radio" name="exercise" value="fire"    >Cardio! You need to stay in tip top shape to handle your fast paced life. <BR>
+            <input type="radio" name="exercise" value="earth"   >Weight training! You feel happy when you feel strong. The big muscles don't hurt either. <BR>
+            </p>
+
+            <p> 4. You get home from work on a hot summer day. What is the first thing you want to drink? <BR>
+            <input type="radio" name="drink" value="earth"      > You're going for a protein shake- it's a good chance to replenish some vital nutrients. <BR>
+            <input type="radio" name="drink" value="fire"       > You make some hot tea- everyone knows this is the way to truly lower your body temperature. <BR>
+            <input type="radio" name="drink" value="water"      > You serve yourself a cold glass of water- for you, there's nothing more refreshing. <BR>
+            <input type="radio" name="drink" value="air"        > You go for a fruit juice- you enjoy how deliciously sweet and simple it is. <BR>
+            </p>
+
+            <p> 5. Pick a favorite side dish. <BR>
+            <input type="radio" name="food" value="fire"       > Naan bread <BR>
+            <input type="radio" name="food" value="earth"      > Potatoes   <BR>
+            <input type="radio" name="food" value="air"        > Noodles    <BR>
+            <input type="radio" name="food" value="water"      > No side dish- just more meat! <BR>
+
+
+        
+
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
